@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilocss.css">
+    <title>Document</title>
+</head>
+<body>
+   <table> border="2">
+       <tr>
+           <td> width="50%">
+               <h1>Vamos construir uma animação?</h1>
+           </td>
+           <main>
+
+           </main>
+           <td> width="25%">
+               <button type="button"on click="evento1()">sim</button>
+               <script>
+                   function evento(){
+                       alert("que bom contar com você!");
+                   }
+               </script>
+           </td>
+           <td width="25%">
+            <button type="button" oneclick="evento2()">Não</button>
+            <script>
+                function evento2() {
+                    alert ("Pensei que poderia contar com você...");
+                }
+                </script>
+                </td>
+                </tr>
+                </table>
+                <div style="padding-top:70%;position:relative;"><iframe src="gifrafaela"
